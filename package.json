@@ -1,5 +1,5 @@
 {
-  "name": "heroku-geoip-lite",
+  "name": "geo-locator",
   "version": "1.0.0",
   "description": "Update maxmind DB files each time heroku install packge",
   "main": "lib/geoip.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/avibenhamou/heroku-goip-lite.git"
+    "url": "git+https://github.com/avibnhm/geo-locator.git"
   },
   "keywords": [
     "maxmind",
@@ -36,7 +36,7 @@
   "author": "Avi Ben Hamou",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/avibenhamou/heroku-goip-lite/issues"
+    "url": "https://github.com/avibnhm/geo-locator/issues"
   },
-  "homepage": "https://github.com/avibenhamou/heroku-goip-lite#readme"
+  "homepage": "https://github.com/avibnhm/geo-locator#readme"
 }
