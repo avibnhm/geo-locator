@@ -15,7 +15,7 @@ synopsis
 --------
 
 ```javascript
-var geoip = require('geoip-lite');
+var geoip = require('geo-locator');
 
 var ip = "207.97.227.239";
 var geo = geoip.lookup(ip);
@@ -32,7 +32,7 @@ installation
 ------------
 ### 1. get the library
 
-    $ npm install geoip-lite
+    $ npm install geo-locator
 
 ### 2. get the datafiles
 
@@ -40,9 +40,8 @@ Then download the city data files from https://github.com/bluesmoon/node-geoip/t
 You need to get `geoip-city.dat` and `geoip-city-names.dat` and put them into the `data/` directory
 of this package.
 
-You could also run `npm run-script updatedb` to do this automatically.
+You could also run `geoip.updateMaxmindeDB` to do this automatically.
 
-**NOTE** that this requires a lot of RAM.  It is known to fail on on a Digital Ocean or AWS micro instance.
-There are no plans to change this.  `geoip-lite` stores all data in RAM in order to be fast.
+
 
 
