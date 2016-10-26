@@ -1,7 +1,7 @@
 {
   "name": "geo-locator",
   "version": "1.0.1",
-  "description": "Update maxmind DB files each time heroku install packge",
+  "description": "Extend Geoip-lite by enabling direct update from main module",
   "main": "lib/geoip.js",
   "scripts": {
     "test": "nodeunit --reporter=minimal test/tests.js",
